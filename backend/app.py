@@ -46,7 +46,8 @@ def calculate_sum():
                 'b': num_b,
                 'sum': result,
                 'status': 'success',
-                'project': 'Flask Backend- CICD'
+                'project': 'Flask Backend- CICD',
+                'messgae':'this line added to check pipline'
             })
         except ValueError:
             return jsonify({
